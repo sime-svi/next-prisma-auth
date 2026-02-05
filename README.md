@@ -7,8 +7,8 @@ Este repositorio trae:
 
 ## Recuerda modificar el nombre de la aplicación en el package.json
 ## Recuerda el token del .env
-## npx prisma studio - para añadir usuarios
-## la contraseña dentro de prisma para poner 123456 hay que poner esto: $2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy
+## npx prisma studio - para ver la base de datos
+## para lanzar un admin, ejecutamos en la raiz: npx tsx reset-admin.ts
 
 
 ¿Cómo usarás esto en el futuro? (Para el cliente de ahora)
