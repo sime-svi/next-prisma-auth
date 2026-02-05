@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## ¿Que trae este repositorio?
+Este repositorio trae:
+-Next.js v15
+-Tailwind v3
+-Prisma v6
+-NextAuth v15
 
-## Getting Started
+## Recuerda modificar el nombre de la aplicación en el package.json
+## Recuerda el token del .env
+## npx prisma studio - para añadir usuarios
+## la contraseña dentro de prisma para poner 123456 hay que poner esto: $2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+¿Cómo usarás esto en el futuro? (Para el cliente de ahora)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Cuando empieces el proyecto del cliente dentro de un rato, no harás create-next-app. Harás esto:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    Clonar: git clone https://github.com/TU_USUARIO/plantilla-next15-tailwind3-prisma.git proyecto-cliente
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    Entrar: cd proyecto-cliente
 
-## Learn More
+    Instalar: npm install
 
-To learn more about Next.js, take a look at the following resources:
+    Configurar:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+        Copias el .env.example (si lo creaste) o creas un .env nuevo.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+        Pones la URL de la base de datos de ESTE cliente nuevo.
 
-## Deploy on Vercel
+    Sincronizar: npx prisma db push
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    Desconectar: rm -rf .git y git init (para que este proyecto tenga su propio historial y no machaque tu plantilla).
