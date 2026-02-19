@@ -2,7 +2,7 @@
 
 Este es un template moderno y robusto diseñado para iniciar proyectos de alto rendimiento. Combina las últimas versiones de **Next.js**, **Auth.js**, **Prisma** y **Tailwind CSS**.
 
-## 🚀 Tecnologías Principales
+## Tecnologías Principales
 
 - **Framework:** [Next.js 15.5](https://nextjs.org/) (App Router, Turbopack)
 - **Autenticación:** [Auth.js v5](https://authjs.dev/) (NextAuth Beta)
@@ -11,15 +11,15 @@ Este es un template moderno y robusto diseñado para iniciar proyectos de alto r
 - **Validación:** [Zod](https://zod.dev/)
 - **Lenguaje:** [TypeScript](https://www.typescriptlang.org/)
 
-## ✨ Características
+## Características
 
-- 🔐 **Autenticación Completa:** Implementación de `Credentials Provider` con `bcryptjs`.
-- 🗄️ **Base de Datos Ready:** Configurado para PostgreSQL (fácilmente editable a MySQL/SQLite en `schema.prisma`).
-- 🏗️ **Arquitectura Limpia:** Estructura organizada en `/src` con soporte para Server Actions.
-- ⚡ **Optimizado:** Configuración lista para usar Turbopack para un desarrollo ultra rápido.
-- 🛠️ **Utilidades de Admin:** Script incluido para resetear/crear usuarios administradores.
+- **Autenticación Completa:** Implementación de `Credentials Provider` con `bcryptjs`.
+- **Base de Datos Ready:** Configurado para PostgreSQL (fácilmente editable a MySQL/SQLite en `schema.prisma`).
+- **Arquitectura Limpia:** Estructura organizada en `/src` con soporte para Server Actions.
+- **Optimizado:** Configuración lista para usar Turbopack para un desarrollo ultra rápido.
+- **Utilidades de Admin:** Script incluido para resetear/crear usuarios administradores.
 
-## 🛠️ Instalación y Configuración
+## Instalación y Configuración
 
 1. **Clonar el repositorio:**
    ```bash
@@ -45,7 +45,7 @@ Este es un template moderno y robusto diseñado para iniciar proyectos de alto r
    npx prisma db push
    ```
 
-## 📖 Comandos Útiles
+## Comandos Útiles
 
 | Comando | Descripción |
 |---------|-------------|
@@ -55,7 +55,7 @@ Este es un template moderno y robusto diseñado para iniciar proyectos de alto r
 | `npx tsx reset-admin.ts` | Ejecuta el script para crear/resetear el usuario administrador (`admin@admin.com` / `123456`). |
 | `npm run lint` | Ejecuta el linter para verificar la calidad del código. |
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 ├── prisma/              # Esquema de base de datos y migraciones
@@ -69,7 +69,7 @@ Este es un template moderno y robusto diseñado para iniciar proyectos de alto r
 └── tailwind.config.js   # Configuración de estilos
 ```
 
-## 📝 Notas de Uso
+## Notas de Uso
 
 - **Cambio de DB:** Si prefieres MySQL o SQLite, cambia el `provider` en `prisma/schema.prisma` y vuelve a ejecutar `npx prisma generate`.
 - **Nuevo Proyecto:** Si usas este repo como plantilla, recuerda borrar la carpeta `.git` y ejecutar `git init` para empezar un historial limpio.
