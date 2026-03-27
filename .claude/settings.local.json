@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__postgres__query",
+      "Bash(npx prisma:*)",
+      "Bash(cd:*)",
+      "mcp__n8n-mcp__search_workflows",
+      "Read(//c/Users/simes/**)",
+      "Read(//c/Users/simes/AppData/Roaming/Claude/**)",
+      "mcp__n8n-mcp__n8n_list_workflows",
+      "mcp__n8n-mcp__n8n_get_workflow",
+      "Bash(npm run:*)",
+      "Bash(ls D:/TRABAJOS/FARMA14/plantilla-next15-tailwind3/*.md)"
+    ]
+  }
+}
